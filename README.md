@@ -11,6 +11,15 @@ output:
 runtime: shiny
 
 ---
+```
+{r setup, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+source('lib/libraries.r', encoding='UTF-8')
+Sys.setlocale('LC_ALL', 'Slovenian')
+```
+```
+{r studio, echo=FALSE, results='asis'}
+source('lib/rstudio.r', encoding='UTF-8')
+```
 
 
 <center>
